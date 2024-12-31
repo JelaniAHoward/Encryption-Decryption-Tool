@@ -49,10 +49,12 @@ The DEK is encrypted using the KEK, ensuring that the DEK is protected.
 JSON Storage:
 
 Encrypted data is stored in JSON format along with:
-The salt for KEK derivation.
-The encrypted DEK.
-The encrypted data or file content.
-(For files) The original file name.
+
+1. The salt for KEK derivation.
+2. The encrypted DEK.
+3. The encrypted data or file content.
+4. (For files) The original file name.
+
 Decryption Process:
 
 The user provides the path to the encrypted file and their password.
@@ -60,22 +62,23 @@ The KEK is re-derived using the stored salt and user password.
 The DEK is decrypted using the KEK, and the actual data is decrypted using the DEK.
 
 Usage
+
 Running the Program
+
 Clone the repository:
-bash
-Copy code
+
 git clone https://github.com/JelaniAHoward/Encryption-Decryption-Tool
-cd <repository_folder>
+
 Install the required Python libraries:
-bash
-Copy code
+
 pip install cryptography
+
 Run the program:
-bash
-Copy code
+
 python Index.py
 
 Menu Options
+
 Option 1: Encrypt Plaintext
 
 Enter a password and a plaintext message.
