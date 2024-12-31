@@ -4,7 +4,7 @@ This Python program allows users to securely encrypt and decrypt plaintext messa
 
 Features
 
-1.Encrypt Plaintext:
+1. Encrypt Plaintext:
 
 Encrypt user-inputted plaintext messages using a randomly generated DEK.
 Secure the DEK using a KEK derived from a user-provided password.
