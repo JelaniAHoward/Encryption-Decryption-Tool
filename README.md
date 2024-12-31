@@ -131,13 +131,19 @@ Install using:
 pip install cryptography
 
 Security Notes
-Passwords are not stored anywhere in plaintext. They are used only for deriving the KEK.
-The program uses a randomly generated salt for each encryption, ensuring that the same password produces different KEKs for different encryptions.
-Encrypted data is stored securely in JSON format, but users should protect the JSON files to prevent unauthorized access.
+
+1. Passwords are not stored anywhere in plaintext. They are used only for deriving the KEK.
+
+2. The program uses a randomly generated salt for each encryption, ensuring that the same password produces different KEKs for different encryptions.
+
+3. Encrypted data is stored securely in JSON format, but users should protect the JSON files to prevent unauthorized access.
 
 License
-This project is licensed under the MIT License. See the LICENSE file for more details.
+
+  This project is licensed under the MIT License. See the LICENSE file for more details.
 
 Acknowledgments
-Built using the cryptography library.
-Inspired by best practices in cryptographic security.
+
+  Built using the cryptography library.
+
+  Inspired by best practices in cryptographic security.
