@@ -122,11 +122,12 @@ Input Validation:
 Ensures the user provides valid choices for menu options and file paths.
 
 Dependencies
+
 Python 3.x
+
 cryptography library
-Install using:
-bash
-Copy code
+
+Install using: 
 pip install cryptography
 
 Security Notes
