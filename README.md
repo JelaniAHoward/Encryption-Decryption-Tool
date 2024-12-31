@@ -94,9 +94,11 @@ Option 5: Exit
 Exit the program.
 
 Error Handling
+
 Invalid Password:
 
 If an incorrect password is provided during decryption, the program displays an error and terminates the operation.
+
 File Not Found:
 
 If the user provides an incorrect file path, the program displays a "File not found" error.
