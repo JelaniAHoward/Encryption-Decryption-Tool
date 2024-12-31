@@ -3,42 +3,44 @@
 This Python program allows users to securely encrypt and decrypt plaintext messages and files. It leverages the cryptography library to implement a hybrid encryption system that uses a Key Encryption Key (KEK) and a Data Encryption Key (DEK) for enhanced security. Encrypted data is stored in JSON format for easy access and retrieval.
 
 Features
-Encrypt Plaintext:
+
+1.Encrypt Plaintext:
 
 Encrypt user-inputted plaintext messages using a randomly generated DEK.
 Secure the DEK using a KEK derived from a user-provided password.
 Store the encrypted data and metadata in JSON format.
 
-Decrypt Plaintext:
+2. Decrypt Plaintext:
 
 Decrypt encrypted plaintext files by re-deriving the KEK and DEK.
 Validate user-provided passwords to ensure secure decryption.
 
-Encrypt Files:
+3. Encrypt Files:
 
 Encrypt any file type (e.g., .txt, .pdf, .docx, images).
 Store the encrypted file content, metadata, and original file name securely in JSON format.
 
-Decrypt Files:
+4. Decrypt Files:
 
 Decrypt encrypted files and save them with their original file names prefixed with decrypted.
 Supports renamed or relocated encrypted files.
 
-Menu-Based Interface:
+5. Menu-Based Interface:
 
 Provides an interactive menu for users to:
 
-Encrypt plaintext
+i)Encrypt plaintext
 
-Decrypt plaintext
+ii) Decrypt plaintext
 
-Encrypt a file
+iii) Encrypt a file
 
-Decrypt a file
+iv) Decrypt a file
 
-Exit the program
+v) Exit the program
 
 How It Works
+
 Hybrid Encryption:
 
 A Key Encryption Key (KEK) is derived from a user-provided password using a key derivation function (PBKDF2).
