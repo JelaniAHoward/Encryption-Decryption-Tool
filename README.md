@@ -29,9 +29,13 @@ Menu-Based Interface:
 Provides an interactive menu for users to:
 
 Encrypt plaintext
+
 Decrypt plaintext
+
 Encrypt a file
+
 Decrypt a file
+
 Exit the program
 
 How It Works
