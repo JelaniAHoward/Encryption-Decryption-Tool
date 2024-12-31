@@ -27,6 +27,7 @@ Supports renamed or relocated encrypted files.
 Menu-Based Interface:
 
 Provides an interactive menu for users to:
+
 Encrypt plaintext
 Decrypt plaintext
 Encrypt a file
@@ -57,7 +58,7 @@ Running the Program
 Clone the repository:
 bash
 Copy code
-git clone <repository_url>
+git clone https://github.com/JelaniAHoward/Encryption-Decryption-Tool
 cd <repository_folder>
 Install the required Python libraries:
 bash
